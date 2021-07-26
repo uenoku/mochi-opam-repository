@@ -9,7 +9,7 @@ dev-repo: "git+https://github.com/ryosu-sato/csisat.git"
 bug-reports: "https://github.com/ryosu-sato/csisat/issues"
 license: "Apache License, Version 2.0"
 build: [
-  ["dune" "substs"]
+  ["dune" "subst"]
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [
