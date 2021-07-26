@@ -1,0 +1,22 @@
+opam-version: "2.0"
+maintainer: "Ryosuke SATO <rsato@is.s.u-tokyo.ac.jp>"
+authors: [
+  "John Harrison"
+]
+homepage: "https://github.com/ryosu-sato/atp"
+dev-repo: "git+https://github.com/ryosu-sato/atp.git"
+bug-reports: "https://github.com/ryosu-sato/atp/issues"
+build: [
+  [make "all"]
+]
+depends: [
+  "num"
+]
+install: [
+  [make "install"]
+]
+synopsis: 'Code for "Handbook of Practical Logic and Automated Reasoning"'
+url {
+  src: "https://github.com/ryosu-sato/atp/archive/v20210726.tar.gz"
+  checksum: "sha512=fafe682d8dce774a655ec268ea6d5e4677ccd1a238f225c81882fa9343c84165f634ae252f859912294cdf54ab253f0cdfca8c3ee83906d1d348a605508bddbe"
+}
