@@ -19,8 +19,7 @@ depends: [
   "atp"
   "csisat"
   "z3"
-  "apron.apron"
-  "apron.polkaMPQ"
+  "apron"
 ]
 synopsis: "A framework for program analysis and transformation"
 url {
