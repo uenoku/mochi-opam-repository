@@ -1,0 +1,19 @@
+opam-version: "2.0"
+maintainer: "Ryosuke SATO <rsato@is.s.u-tokyo.ac.jp>"
+authors: [
+  "Hiroshi Unno <uhiro@cs.tsukuba.ac.jp>"
+]
+homepage: "https://github.com/ryosu-sato/fpat"
+dev-repo: "git+https://github.com/ryosu-sato/fpat.git"
+bug-reports: "https://github.com/ryosu-sato/fpat/issues"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+depends: [
+  "str unix bigarray num batteries zarith atp csisat z3 apron.apron apron.polkaMPQ"
+]
+synopsis: "A framework for program analysis and transformation"
+url {
+  src: "https://github.com/ryosu-sato/fpat/archive/v20210726.tar.gz"
+  checksum: "sha512=ec8416a1918fe88260531ae887b2052d9a6010b42cd024bd4c69384467afd64c2807c1dfec2812fb9ba16d654a9f3c8d6f614af57958a896775b1bd1b540983a"
+}
