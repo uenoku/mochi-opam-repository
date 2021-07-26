@@ -7,7 +7,12 @@ homepage: "https://github.com/ryosu-sato/fpat"
 dev-repo: "git+https://github.com/ryosu-sato/fpat.git"
 bug-reports: "https://github.com/ryosu-sato/fpat/issues"
 build: [
-  ["dune" "build" "-p" name "-j" jobs]
+  ["autoconf"]
+  ["./configure"]
+  [make]
+]
+install: [
+  [make "install"]
 ]
 depends: [
   "num"
