@@ -10,8 +10,6 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [
-  "str"
-  "unix"
   "bigarray"
   "num"
   "batteries"
