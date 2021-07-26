@@ -15,5 +15,5 @@ depends: [
 synopsis: "A framework for program analysis and transformation"
 url {
   src: "https://github.com/ryosu-sato/fpat/archive/v20210726.tar.gz"
-  checksum: "sha512=ec8416a1918fe88260531ae887b2052d9a6010b42cd024bd4c69384467afd64c2807c1dfec2812fb9ba16d654a9f3c8d6f614af57958a896775b1bd1b540983a"
+  checksum: "sha512=249abf10955aeef3e572aed2a3899a2ad260aa05210b39d97425db9953e3a089d11aaa25a5ce862c42c178e4457cb6e3351db1a1e69921df5254274498e2098e"
 }
