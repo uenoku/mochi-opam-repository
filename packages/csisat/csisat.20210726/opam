@@ -16,3 +16,7 @@ depends: [
   "conf-glpk"
 ]
 synopsis: "An open-source interpolating decision procedure for LA+EUF"
+url {
+  src: "https://github.com/ryosu-sato/csisat/archive/v20210726.tar.gz"
+  checksum: "sha512=a796341de0953513b7538e1e9cb4e6b678f8a60dfc959544cc41971dc154ce12acd5c7e051e32332f7cb5c799ada54ba17a25a4eaccea1c4cf1c9d8d20936c03"
+}
