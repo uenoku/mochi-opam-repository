@@ -22,6 +22,7 @@ depends: [
   "csisat"
   "z3"
   "apron"
+  "conf-autoconf"
 ]
 synopsis: "A framework for program analysis and transformation"
 url {
