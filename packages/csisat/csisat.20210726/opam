@@ -14,6 +14,7 @@ build: [
 ]
 depends: [
   "conf-glpk"
+  "dune"
 ]
 synopsis: "An open-source interpolating decision procedure for LA+EUF"
 url {
