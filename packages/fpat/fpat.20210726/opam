@@ -3,7 +3,7 @@ maintainer: "Ryosuke SATO <rsato@is.s.u-tokyo.ac.jp>"
 authors: [
   "Hiroshi Unno <uhiro@cs.tsukuba.ac.jp>"
 ]
-homepage: "https://github.com/ryosu-sato/fpat"
+homepage: "https://github.com/uenoku/fpat"
 dev-repo: "git+https://github.com/uenoku/fpat.git"
 bug-reports: "https://github.com/ryosu-sato/fpat/issues"
 build: [
