@@ -4,7 +4,7 @@ authors: [
   "Hiroshi Unno <uhiro@cs.tsukuba.ac.jp>"
 ]
 homepage: "https://github.com/ryosu-sato/fpat"
-dev-repo: "git+https://github.com/ryosu-sato/fpat.git"
+dev-repo: "git+https://github.com/uenoku/fpat.git"
 bug-reports: "https://github.com/ryosu-sato/fpat/issues"
 build: [
   ["autoconf"]
